@@ -1,5 +1,5 @@
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background: url("../img/intro_bg.jpg") no-repeat center;
   background-size: cover;
   padding-top: 263px;
@@ -20,6 +20,41 @@
   color: white;
   max-width: 546px;
   margin-bottom: 59px;
+}
+
+.search-form__field {
+  background: transparent url("../img/Oval.svg") no-repeat left 3px;
+  background-size: 20px;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-right: 60px;
+  width: 297px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 22px;
+  padding-left: 43px;
+}
+
+.search-form__field::placeholder {
+  color: white;
+}
+
+.search-form__submit {
+  vertical-align: bottom;
+  background: #1B7DFF;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 39px;
+  border: 0;
+  border-radius: 2px;
+}
+.search-form__submit:active, .search-form__submit:hover, .search-form__submit:focus {
+  opacity: 0.8;
+  background: #3791ff;
 }
 
 /*# sourceMappingURL=intro.css.map */
