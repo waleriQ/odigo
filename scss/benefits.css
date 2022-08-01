@@ -1,0 +1,23 @@
+.benefits__wrapper {
+  max-width: 1262px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  position: relative;
+}
+.benefits__wrapper .benefits__title {
+  width: 100%;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  padding: 93px 100px 88px 100px;
+  position: absolute;
+  transform: translateY(-50%);
+  background-color: white;
+}
+
+.benefits__cards {
+  height: 30vh;
+}
+
+/*# sourceMappingURL=benefits.css.map */

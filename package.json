@@ -3,6 +3,6 @@
     "gulp": "^4.0.2"
   },
   "dependencies": {
-    "bootstrap": "5.2.0"
+    "bootstrap-grid": "^3.0.1"
   }
 }
