@@ -3,7 +3,41 @@
   margin: 0 auto;
   color: black;
 }
+//Header
 .header {
   background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 57px;
+  .header__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header__item {
+    margin-right: 82px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .header__link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    &:hover {
+      opacity: .85;
+    }
+
+  }
+
+}
+//Intro
 
