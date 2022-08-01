@@ -1,0 +1,25 @@
+.intro {
+  height: 100vh;
+  background: url("../img/intro_bg.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 263px;
+}
+.intro .intro__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  max-width: 619px;
+  margin-bottom: 22px;
+}
+.intro .intro__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  max-width: 546px;
+  margin-bottom: 59px;
+}
+
+/*# sourceMappingURL=intro.css.map */
