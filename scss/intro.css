@@ -3,6 +3,7 @@
   background: url("../img/intro_bg.jpg") no-repeat center;
   background-size: cover;
   padding-top: 263px;
+  margin-bottom: 150px;
 }
 .intro .intro__title {
   font-style: normal;
