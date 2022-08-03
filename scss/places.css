@@ -1,9 +1,16 @@
+.places__caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
 .places h2 {
   font-weight: 500;
   font-size: 35px;
   line-height: 42px;
   padding-bottom: 10px;
-  margin-bottom: 36px;
 }
 .places .border__title {
   position: relative;

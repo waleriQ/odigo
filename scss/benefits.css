@@ -48,7 +48,7 @@
   line-height: 24px;
   margin-bottom: 39px;
 }
-.benefits_card .benefits__card-link {
+.benefits_card .arrow__blue {
   display: inline-block;
   padding-right: 59px;
   background: url("../img/arrow right blue.svg") no-repeat 90% center;
@@ -59,7 +59,7 @@
   text-decoration: none;
   color: #006DFE;
 }
-.benefits_card .benefits__card-link:focus, .benefits_card .benefits__card-link:hover {
+.benefits_card .arrow__blue:focus, .benefits_card .arrow__blue:hover {
   background: url("../img/arrow right blue.svg") no-repeat right center;
   transition: 0.2s all;
   color: #00459f;
