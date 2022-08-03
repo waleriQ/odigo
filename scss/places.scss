@@ -1,0 +1,23 @@
+.places {
+  h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding-bottom: 10px;
+    margin-bottom: 36px;
+  }
+.border__title {
+  position: relative;
+
+}
+  .border__title::after {
+    display: block;
+    content: '';
+    width: 253px;
+    height: 3px;
+    background-color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+}

@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Lato';
     font-style: normal;
@@ -39,7 +40,7 @@
     background-color: black;
 }
 html {
-   box-sizing: border-box; /* life hack*/
+    box-sizing: border-box; /* life hack*/
 }
 *, *::before, ::after {  /* life hack*/
     box-sizing: inherit;
@@ -53,4 +54,9 @@ body {
 img {
     max-width: 100%;  /* life hack*/
     height: auto;
+}
+.wrapper-full {
+    max-width: 1262px;
+    margin: 0 auto;
+    padding: 0 90px;
 }
