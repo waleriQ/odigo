@@ -58,6 +58,7 @@
 .benefits_card .benefits__card-link:focus, .benefits_card .benefits__card-link:hover {
   background: url("../img/arrow right blue.svg") no-repeat right center;
   transition: 0.2s all;
+  color: #00459f;
 }
 
 /*# sourceMappingURL=benefits.css.map */
