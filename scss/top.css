@@ -77,8 +77,10 @@
 }
 
 .top__card-more {
+  margin: auto 0 0 0;
   font-weight: 400;
   font-size: 16px;
+  width: 118px;
   line-height: 19px;
   padding: 12px 19px;
   background-color: #006dfe;
@@ -87,6 +89,11 @@
 }
 .top__card-more:hover, .top__card-more:focus {
   background-color: #0059cf;
+}
+
+.top__card {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=top.css.map */
