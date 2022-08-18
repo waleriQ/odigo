@@ -1,0 +1,83 @@
+.top {
+  h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    padding-bottom: 10px;
+  }
+  margin-bottom: 58px;
+}
+.border__title {
+  position: relative;
+
+}
+.border__title::after {
+  display: block;
+  content: '';
+  width: 253px;
+  height: 3px;
+  background-color: #006DFE;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.top__title {
+margin-bottom: 54px;
+}
+.top__card_pic{
+  position: relative;
+  margin-bottom: 45px;
+  .top__card_stats {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background: rgba(21, 24, 36, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 25px;
+    justify-content: flex-end; //ПОЗИЦИОНИРОВАНИЕ AUTO
+  }
+}
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+.top__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 auto 0 0; //ПОЗИЦИОНИРОВАНИЕ AUTO
+}
+
+.top__card-like {
+padding-right: 20px;
+  background: url("../img/like.svg") no-repeat right;
+  margin-right: 14px;
+}
+.top__card-comments {
+  padding-right: 23px;
+  background: url("../img/shape.svg") no-repeat right
+}
+.top__card-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+.top__card-more {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+padding: 12px 19px;
+  background-color: #006DFEFF;
+  text-decoration: none;
+  color: white;
+  &:hover, &:focus {
+    background-color: #0059cf;
+  }
+}
+
